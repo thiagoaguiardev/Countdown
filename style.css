@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--text-color)
 }
 .img_top{
     width: 100%;
@@ -26,4 +27,11 @@ main{
 }
 .corpo_contador h1{
   color: var(--purple);
+}
+button{
+  background-color: var(--purple);
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
